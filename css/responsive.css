@@ -1,0 +1,567 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+	.dropdown i{
+		/*display: none;*/
+	}
+
+
+
+}
+
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px) {
+
+
+.about-box i {
+    margin: 20px 28px 70px -60px;
+}
+
+figure.effect-zoe figcaption {
+    padding: 30px 20px;
+}
+
+
+.team-desc-top h3,.team-desc  h3{
+	font-size: 26px;
+}
+.team-desc {
+    padding: 55px 35px;
+    color: #FFF;
+}
+
+.team-desc p{
+	margin: 20px 0px;
+}
+
+/*footer
+========================================*/
+.footer-about {
+    padding: 70px 0px;
+}
+.footer-btm p.white, .footer-btm p span {
+    font-weight: normal;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 767px) and (max-width: 991px) {
+
+.navbar-brand {
+    width: 80%;
+    padding-top: 23px;
+}
+.navbar-nav li a {
+    padding: 35px 5px;
+}
+.overlay2 {
+    position: relative;
+    height: 630px;
+}
+.overlay2 img{
+    height: 100%;
+}
+
+.navbar-nav {
+    /*margin-top: 40px;*/
+}
+.navbar-main{
+    background: rgba(255,255,255,.7);
+}
+
+/*======Welcome=============*/
+.welcome-inner{
+	margin-bottom: 40px;
+}
+.welcome-img img{
+	width: 100%;
+}
+.section-heading h2 {
+    width: 43%;
+}
+.about-wrap {
+    padding-left: 30px;
+}
+/* 	about 
+====================================*/
+.about-inner{
+	margin-bottom: 30px;
+}
+.about-box i {
+    margin: 20px 30px 68px 0px;
+
+}
+/*service
+==========================*/
+.service-box{
+	margin-bottom: 20px;
+}
+.service-box h4{
+	font-size: 16px;
+}
+#service-carousel .carousel-control.right {
+    right: 36%;
+}
+
+#service-carousel .carousel-control.left {
+    left: 42%;
+}
+
+/*counter
+==========================================*/
+
+.counter-box {
+    margin-bottom: 30px;
+}
+.counter-box .count {
+    text-align: center;
+    margin-left: 40px;
+}
+/*============Blog============*/
+.blog-inner{
+	margin-bottom: 20px;
+}
+
+/*======team============*/
+.team-img img{
+	height: 315px;
+	width: 100%;
+}
+.team-img.top img{
+	height: 355px;
+	width: 100%;
+}
+
+
+/*portfolio
+==============================================*/
+.portfolio-filter {
+    width: 82%;
+}
+
+
+
+/*=========contact ===========*/
+.contact-form {
+   padding-left: 0px;
+}
+.contact-page-input {
+    margin-bottom: 20px;
+}
+
+/*footer
+========================================*/
+.footer-inner {
+    padding: 80px 30px;
+}
+
+.footer-btm p {
+    margin-bottom: 25px;
+}
+.footer-inner {
+    border-bottom: 1px solid rgb(67, 67, 67);
+    border-right: 0px;
+}
+.menu-social-profile-links li{
+	margin-bottom: 10px;
+}
+.footer-inner.location li h5 {
+    line-height: 26px;
+}
+
+
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media (min-width : 478px) and (max-width: 640px)  {
+.navbar-brand {
+    width: 70%;
+}
+
+.f-left.texts{
+	float: none;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.f-right.socials{
+	float: none;
+	text-align: center;
+}
+
+.f-right a {
+    display: inline-block;
+}
+
+/*=========navabr ==============*/
+.navbar-toggle {
+    background-color: #ddd;
+    margin-top: 25px;
+  }
+
+  .navbar-toggle .icon-bar {
+    background: #000;
+}
+.navbar-nav {
+    margin: 7.5px -15px;
+    background: #fff;
+}
+.navbar-nav li a {
+    border-bottom: 1px solid#eee;
+    padding: 10px 25px;
+   }
+
+/*============Slider===================*/
+.carousel-caption .btn-3e {
+    padding: 7px 56px 9px 35px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.btn-3::before {
+    line-height: 36px;
+}
+.section-heading {
+    width: 100%;
+    margin: 0px auto 45px;
+}
+
+.section-heading h2 {
+    width:53%;
+    line-height: 41px;
+}
+
+#slider-carousel .carousel-caption.left {
+	top: 15%;
+	width: 90%;
+}
+.carousel-caption h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    margin: 20px 0px;
+    color: #FFF;
+}
+#slider-carousel .carousel-indicators {
+    height: 20px;
+}
+#slider-carousel .carousel-caption {
+    right: 40px;
+    text-align: right;
+    width: 78%;
+    top: 15%;
+    padding-top: 0px;
+}
+.overlay2 {
+    position: relative;
+    height: 330px;
+}
+.overlay2 img{
+    height: 100%;
+}
+
+/*============= Welcome =====================*/
+.welcome-img{
+	margin: 40px 0px 0px 30px;
+}
+.about-wrap {
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
+.about-inner {
+    padding: 0px 42px;
+    margin-bottom: 30px;
+}
+.about-box i {
+    font-size: 40px;
+    color: #4668FF;
+    float: left;
+    margin: 20px 41px 19px -4px;
+}
+
+/*service ===================================*/
+.service-inner {
+    padding: 0px 20px;
+}
+#service-carousel .carousel-control.right {
+    right: 5%;
+ }
+
+ #service-carousel .carousel-control.left {
+    left: 70%;
+}
+
+/*=========== portfolio ========================= */
+.portfolio-filter li {
+   margin-bottom: 22px;
+   padding-bottom: 15px;
+}
+
+.portfolio-filter li a.active::after {
+    bottom: -19px;
+}
+
+/*blog==================================*/
+.blog-inner {
+    margin-bottom: 20px;
+    padding: 0px 15px;
+}
+
+
+/*counter ========================*/
+.counter-box {
+	margin-bottom: 40px;
+}
+.counter-box i{
+	margin: 0px;
+	float: none;
+}
+.counter-box .count{
+	text-align: center;
+	margin: 5px auto;
+}
+
+/*=========contact ===========*/
+.contact-form {
+   padding-left: 0px;
+}
+.contact-page-input {
+    margin-bottom: 20px;
+}
+
+/*=========Footer ===================*/
+.footer-about,.footer-inner {
+    padding: 20px 30px;
+}
+
+.footer-btm {
+    text-align: center;
+    float: none;
+}
+
+}
+
+
+
+/* Custom, iPhone Retina */ 
+@media (min-width : 320px) and (max-width: 478px)  {
+.navbar-brand {
+    width: 70%;
+}
+.f-left p {
+    margin: 13px 0px 11px 24px;
+}
+
+.f-right {
+    float: left;
+	margin-left: 26px;
+	margin-top: 10px;
+}
+
+.socials a {
+    color: #999;
+    border-top: 1px solid rgb(239, 239, 239);
+}
+.navbar-toggle {
+    background-color: #444;
+    margin-top: 27px;
+}
+
+.navbar-toggle .icon-bar {
+    background: #fff;
+}
+.navbar{
+	padding-left: 0px;
+}
+.navbar-main {
+	background: rgba(255,255,255,.9);
+}
+
+.navbar-nav li a{
+    border-bottom: 1px solid#ccc;
+    padding: 21px 20px 10px;
+}
+
+.section-heading {
+    width: 100%;
+    margin: 20px auto 35px;
+}
+.section-heading h2 {
+    width: 50%;
+    margin: 20px auto;
+    line-height: 40px;
+}
+
+
+
+/* carousel slider
+============================================*/
+.btn-3::before {
+    line-height: 34px;
+}
+.carousel-caption .btn-3e {
+    padding: 6px 56px 6px 15px;
+    margin-top: 3px;
+}
+
+#slider-carousel .carousel-caption.left {
+	top: 15%;
+	width: 100%;
+}
+
+.carousel-caption h4 {
+    font-size: 12px;
+}
+.carousel-caption h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 27px 0px;
+    color: #FFF;
+}
+
+#slider-carousel .carousel-caption {
+    text-align: center;
+    width: 82%;
+	padding-top: 0px;
+	top: 9%;
+    left: 10%;
+}
+
+#slider-carousel .carousel-indicators {
+    height: 28px;
+}
+
+.carousel-indicators li {
+    width: 26px !important;
+    height: 8px !important;
+}
+.welcome-inner,.welcome-img{
+	margin-bottom: 20px;
+}
+.overlay2 {
+    position: relative;
+    height: 285px;
+}
+.overlay2 img{
+    height: 100%;
+}
+
+/* about 
+====================================*/
+.about-box {
+    margin: 50px 0px;
+}
+
+.about-box i {
+    font-size: 40px;
+    color: #4668FF;
+    float: none;
+    margin: 20px 0px 20px 0px;
+	
+}
+
+.service-inner {
+    margin-bottom: 45px;
+}
+
+.service-box h4 {
+    margin: 25px 0px;
+}
+
+#service-carousel .carousel-control.right {
+    right: -14%;
+}
+
+#service-carousel .carousel-control.left {
+    left: 83%;
+}
+
+/*portfolio
+=====================================*/
+.portfolio-filter li a{
+	line-height: 22px;
+}
+.portfolio-filter li {
+    margin: 0px 0px 13px 0px;
+    padding: 0px 0px 15px;
+}
+
+
+
+/* team
+===============================*/
+
+.team-desc p,.team-desc-top p{
+	margin: 15px 0px;
+}
+
+
+/* counter
+==================================*/
+
+.counter-box {
+    margin-bottom: 40px;
+}
+
+.counter-inner {
+    background: #4668FF none repeat scroll 0% 0%;
+    padding: 30px 0px ;
+
+}
+.counter-box i{
+	margin: 0px;
+	float: none;
+}
+.counter-box .count{
+	text-align: center;
+	margin: 5px auto;
+}
+
+/* blog
+========================================*/
+.blog-desc {
+    margin-bottom: 20px;
+}
+
+.blog-link a {
+    line-height: 24px;
+}
+
+
+/*======contact form=============*/
+.contact-form{
+    padding-left: 0px;
+}
+.contact-page-input {
+    margin-bottom: 15px;
+}
+/*=====Footer================*/
+.footer-about {
+    padding: 65px 10px;
+}
+
+.footer-inner {
+    padding: 20px 10px;
+}
+
+.footer-btm p {
+    margin-bottom: 25px;
+}
+.footer-inner {
+    border-bottom: 1px solid rgb(67, 67, 67);
+    border-right: 0px;
+}
+.footer-inner.location li h5 {
+    line-height: 28px;
+}
+.footer-btm {
+    text-align: center;
+    float: none;
+}
+
+
+
+}
